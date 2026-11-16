@@ -1,6 +1,4 @@
-# SCP_Camera 1.0
-
-> **A primeira versão completa do SCP_Camera.**
+# SCP_Camera 1.1
 
 ## O que é
 
@@ -18,10 +16,22 @@ A ideia é recriar a sensação de ser o operador de plantão, olhando para um m
 - **Gravação do SCP-131:** uma gravação com som próprio. Quando ela termina, o aplicativo sorteia para onde ir em seguida: o SCP-173, o feed do SCP-895 ou o vídeo do SCP-██6.
 - **SCP-██6:** [REDACTED]
 
-## Novidades da versão 1.0
+## Novidades da versão 1.1
 
-- **SCP-895 refeito:** o feed foi recriado a partir do feed oficial da página do SCP-895 na SCP Wiki. A cena do silo, o escurecimento a cada evento, as imagens sorteadas, o chiado e o texto `INITIALIZING` da câmera seguem o original.
-- **Versão completa:** reúne tudo o que foi adicionado desde a 0.1: os eventos aleatórios, o piscar, o som, e as câmeras e gravações dos SCPs.
+- **Menu principal:** o app agora abre em um menu, com os botões **JOGAR**, **OPÇÕES** e **SAIR**.
+- **Opção "Monitor Secundário":** abre o app direto em uma janela sem bordas (borderless) que fica fixada no topo, ideal para deixar rodando em um segundo monitor enquanto você faz outras tarefas. Já vem desativada, e a sua escolha fica salva para as próximas vezes.
+
+## Menu e opções
+
+Na tela inicial, escolha **JOGAR** para abrir as câmeras, **OPÇÕES** para ajustar o app ou **SAIR** para fechar. Você pode usar o mouse, ou as setas do teclado com `Enter`. O `ESC` volta ao menu anterior ou fecha o app.
+
+Em **OPÇÕES** existe uma única opção, **Monitor Secundário**. Clique no quadrado ao lado para ativar ou desativar.
+
+Com ela ativada, ao clicar em JOGAR:
+
+- **Se você tem dois monitores:** o app abre sem bordas no segundo monitor e fica sempre por cima das outras janelas.
+- **Se você tem um monitor só:** o app abre em uma janela pequena, sem bordas e sempre por cima. Para mover, clique nela e arraste.
+- Nesse modo, a tecla `F`/`F11` não faz nada e o cursor do mouse fica visível.
 
 ## Controles
 
@@ -33,7 +43,7 @@ A ideia é recriar a sensação de ser o operador de plantão, olhando para um m
 | `0` | Vídeo do SCP-██6 |
 | `ESPAÇO` | Piscar: tela preta de 1 a 2 segundos (só na câmera do SCP-173) |
 | `M` | Muta e desmuta o som |
-| `F` ou `F11` | Alterna entre tela cheia e janela |
+| `F` ou `F11` | Alterna entre tela cheia e janela (fora do modo Monitor Secundário) |
 | `ESC` | Fecha o app |
 
 ## Download
