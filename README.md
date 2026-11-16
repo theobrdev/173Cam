@@ -1,6 +1,6 @@
-# SCP_Camera 0.3
+# SCP_Camera 1.0
 
-> **Esta é provavelmente a versão final do SCP_Camera.**
+> **A primeira versão completa do SCP_Camera.**
 
 ## O que é
 
@@ -10,19 +10,18 @@ SCP_Camera é um aplicativo para Windows que simula uma estação de monitoramen
 
 A ideia é recriar a sensação de ser o operador de plantão, olhando para um monitor durante horas. Nada acontece em intervalos fixos. A câmera falha, o som muda, algo escapa ao fundo, e você nunca sabe quando vai ser o próximo evento. A câmera principal mostra o SCP-173, e você pode trocar para outras gravações e feeds.
 
-## Novidades da versão 0.3
+## O que tem no SCP_Camera
 
-- **SCP-895:** o feed ao vivo do SCP-895 (CAM 06), recriado a partir da página original da scpfoundation.org, um site abandonado. Tem o chiado da imagem, o relógio com a data e a hora reais, e as interrupções aleatórias em que a imagem escurece e mostra outra cena. A lógica e os tempos seguem o script original.
-- **SCP-131:** uma nova gravação, com som próprio. Quando ela termina, o aplicativo sorteia para onde ir em seguida: o o SCP-173, o feed do SCP-895 ou o vídeo do SCP-██6.
-- **SCP-096:** [REDACTED]
-- **Novo nome:** o aplicativo agora se chama **SCP_Camera**.
+- **Câmera do SCP-173:** a câmera principal. Em momentos aleatórios, a imagem falha e a tela fica preta ao som de pedra raspando. Muito raramente, o alerta de que o SCP-106 escapou da instalação toca ao fundo, em volume baixíssimo, uma ou mais vezes.
+- **Piscar:** você pode forçar uma tela preta rápida quando quiser. Mas cuidado com o que acontece enquanto você não está olhando.
+- **Feed do SCP-895 (CAM06):** o feed ao vivo da câmera de contenção do SCP-895, com chiado, relógio em tempo real e interrupções em que a imagem escurece e algo aparece na tela.
+- **Gravação do SCP-131:** uma gravação com som próprio. Quando ela termina, o aplicativo sorteia para onde ir em seguida: o SCP-173, o feed do SCP-895 ou o vídeo do SCP-██6.
+- **SCP-██6:** [REDACTED]
 
-### O que veio das versões anteriores
+## Novidades da versão 1.0
 
-- Telas pretas em momentos aleatórios, com o som de pedra raspando.
-- O alerta de escape do SCP-106, raro e em volume baixíssimo, que toca uma ou mais vezes.
-- O piscar: uma tela preta rápida que você provoca quando quiser.
-- Mutar e desmutar o som.
+- **SCP-895 refeito:** o feed foi recriado a partir do feed oficial da página do SCP-895 na SCP Wiki. A cena do silo, o escurecimento a cada evento, as imagens sorteadas, o chiado e o texto `INITIALIZING` da câmera seguem o original.
+- **Versão completa:** reúne tudo o que foi adicionado desde a 0.1: os eventos aleatórios, o piscar, o som, e as câmeras e gravações dos SCPs.
 
 ## Controles
 
@@ -43,13 +42,27 @@ Baixe o `SCP_Camera.exe` na aba Releases, ou na página do itch.io, e execute. R
 
 Se o Windows mostrar um alerta (SmartScreen), clique em **Mais informações** e depois em **Executar assim mesmo**. Isso é comum em programas pequenos que não têm assinatura digital.
 
-> Aviso: o app tem sons repentinos. Cuidado com o volume.
+> Aviso: o app tem sons repentinos, escurecimentos bruscos da imagem e conteúdo perturbador. Cuidado com o volume.
 
 ## Créditos
 
-- SCP-173, SCP-106, SCP-131, SCP-895 e SCP-██6: SCP Foundation (CC BY-SA 3.0), https://scp-wiki.wikidot.com
-- Feed do SCP-895 recriado a partir da página original: http://scpfoundation.org/895/feed.html
-- Sons: SCP: Secret Laboratory e SCP: Containment Breach
+**SCPs**
+- SCP-173, SCP-106, SCP-131 e SCP-██6: SCP Foundation (CC BY-SA 3.0), https://scp-wiki.wikidot.com
+- SCP-895, de Aelanna (CC BY-SA 3.0): https://scpwiki.com/scp-895
+
+**Vídeos**
+- Vídeo do SCP-173: SandS Channel
+- Vídeo do SCP-██6: the grave encounter number two
+- Vídeo do SCP-131: autor desconhecido (se você é o autor, entre em contato para receber o crédito ou pedir a remoção)
+
+**Feed do SCP-895**
+- Código e imagens: stephlynch (CC BY-SA 3.0), com imagens derivadas de uma cena do Blender 2.83, de Ian Hubert (CC BY-SA 3.0), https://cloud.blender.org/p/gallery/5eff317d7920214fcfa0770e
+
+**Sons**
+- SCP: Secret Laboratory e SCP: Containment Breach
+- Áudio do SCP-██6: the grave encounter number two e SCP: Containment Breach
+
+**Desenvolvimento**
 - Desenvolvido por TBloper ([itch.io](https://tbloper.itch.io)) / theobrdev ([GitHub](https://github.com/theobrdev))
 
 Projeto de fã, gratuito e não afiliado à SCP Foundation nem à Northwood Studios.
